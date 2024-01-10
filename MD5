@@ -1,11 +1,11 @@
-c812f472ec4644bbd0dcc2f60b81bd84 *DESCRIPTION
+6b582ab5c86b8b62116e4031082a5212 *DESCRIPTION
 04d59caec1a6caff82a84d712e6c133b *NAMESPACE
-49a497509b65862221962c36abaa316b *NEWS.md
+76eff8c979ea7807bc538700bba18059 *NEWS.md
 c34bd7573b9830d209dc17de6a4be599 *R/adbcsqlite-package.R
 36b91e49bb250014c46e1e511b226ca5 *README.md
 d2afa11120385383721d4e0383d90f6b *cleanup
 0cc2f924246bff268c01cb1b603c125b *cleanup.win
-8e871a22be1c9e1bd8f86c16b1e0baec *configure
+29f7d352a4f314967bd6ffa711bba77d *configure
 c279d687a5ae35b4a405a28efee1554d *configure.win
 59840fb9d97bc2d2fd63da65dc5f0318 *man/adbcsqlite-package.Rd
 06539edbf86ea1e4b3e37300de09469e *man/adbcsqlite.Rd
@@ -23,7 +23,7 @@ f757fc0650d7d55c8ae94ede40977145 *src/statement_reader.c
 e442cbcf95ee436bb0234c3228978c8e *src/types.h
 29dd23fff95e870b6d4a8be53fd5767b *tests/testthat.R
 394b636232bcfb827ec1be8be235cca4 *tests/testthat/test-adbcsqlite-package.R
-bee074e2c125aa8c4516af410f7bd3d6 *tools/sqlite3.c
-9c396e727475a9e1003ca09614cffc1f *tools/sqlite3.h
+1292dde4bbed6ad3b28f41d7936aaad0 *tools/sqlite3.c
+172c4448fb370f208bc061b5373e1a2f *tools/sqlite3.h
 fd99c55cc950405c9856e38cd56c5e64 *tools/test.c
 1d1393d9f58fa1b7c343caedec4d36de *tools/test_extension.c

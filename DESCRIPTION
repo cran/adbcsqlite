@@ -1,6 +1,6 @@
 Package: adbcsqlite
 Title: 'Arrow' Database Connectivity ('ADBC') 'SQLite' Driver
-Version: 0.8.0
+Version: 0.9.0
 Authors@R: c(
       person("Dewey", "Dunnington", , "dewey@dunnington.ca", role = c("aut", "cre"),
              comment = c(ORCID = "0000-0002-9415-4582")),
@@ -23,10 +23,10 @@ URL: https://github.com/apache/arrow-adbc
 BugReports: https://github.com/apache/arrow-adbc/issues
 Imports: adbcdrivermanager
 NeedsCompilation: yes
-Packaged: 2023-11-10 02:03:28 UTC; deweydunnington
+Packaged: 2024-01-10 00:49:32 UTC; deweydunnington
 Author: Dewey Dunnington [aut, cre] (<https://orcid.org/0000-0002-9415-4582>),
   Apache Arrow [aut, cph],
   Apache Software Foundation [cph]
 Maintainer: Dewey Dunnington <dewey@dunnington.ca>
 Repository: CRAN
-Date/Publication: 2023-11-10 05:00:07 UTC
+Date/Publication: 2024-01-10 01:23:02 UTC
