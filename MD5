@@ -1,13 +1,13 @@
-6b582ab5c86b8b62116e4031082a5212 *DESCRIPTION
+9b0a0d3be4a04f626e24e0ec8e05f468 *DESCRIPTION
 04d59caec1a6caff82a84d712e6c133b *NAMESPACE
-76eff8c979ea7807bc538700bba18059 *NEWS.md
+e8db77e06235d3f732c3aff5721518af *NEWS.md
 c34bd7573b9830d209dc17de6a4be599 *R/adbcsqlite-package.R
 36b91e49bb250014c46e1e511b226ca5 *README.md
 d2afa11120385383721d4e0383d90f6b *cleanup
 0cc2f924246bff268c01cb1b603c125b *cleanup.win
 29f7d352a4f314967bd6ffa711bba77d *configure
 c279d687a5ae35b4a405a28efee1554d *configure.win
-59840fb9d97bc2d2fd63da65dc5f0318 *man/adbcsqlite-package.Rd
+e8b4f91bfca6401fbee5fab918bfc894 *man/adbcsqlite-package.Rd
 06539edbf86ea1e4b3e37300de09469e *man/adbcsqlite.Rd
 9bf5814ca367ab84132128719d864c3e *src/Makevars.in
 35d345fa91749a24c11d8d1ec9498f61 *src/adbc.h
@@ -15,8 +15,8 @@ c279d687a5ae35b4a405a28efee1554d *configure.win
 b2078d9bab117206ab943e07e98e29e5 *src/common/utils.c
 4da90d767460ca602a2c7f2c7cd75e08 *src/common/utils.h
 b5bb5266f8c041bb687d55131fab2aef *src/init.c
-1f452910b2e6f5db5f93647723361af9 *src/nanoarrow/nanoarrow.c
-223e419d88ef73dfb5b7cf7dc7f7cc6a *src/nanoarrow/nanoarrow.h
+61ceb0e8dd4ffc53163add70c0e11117 *src/nanoarrow/nanoarrow.c
+241ef938a48e3c41b7e7fb019c482e44 *src/nanoarrow/nanoarrow.h
 c348cfcb220c8f77fa425439a4bee7c0 *src/sqlite.c
 f757fc0650d7d55c8ae94ede40977145 *src/statement_reader.c
 0121ad8be655f541cd95525c0d72d2eb *src/statement_reader.h
