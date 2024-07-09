@@ -1,4 +1,4 @@
-9cd7c8d62492744d7cff224b26e0b206 *DESCRIPTION
+5315e2350d68bd0c65b169d6f2250d31 *DESCRIPTION
 04d59caec1a6caff82a84d712e6c133b *NAMESPACE
 c34bd7573b9830d209dc17de6a4be599 *R/adbcsqlite-package.R
 97150462ecdeafaf1e3c4f4ed928bd39 *README.md
@@ -11,7 +11,7 @@ e8b4f91bfca6401fbee5fab918bfc894 *man/adbcsqlite-package.Rd
 b934ccd5fbabed433c43720e445b713f *src/Makevars.in
 f25f3b0127044dd2b265f464f27621dc *src/adbc.h
 6a89dcbd7b72a96f4cbe2413b9336673 *src/c/driver/common/options.h
-6b42fee749103a27a71f56f1ce2215ab *src/c/driver/common/utils.c
+4bde5bfe825d96b80bdd793fdf23e392 *src/c/driver/common/utils.c
 9b5a985d947bebbf39cc55607f598fc3 *src/c/driver/common/utils.h
 af4e80f33b09b2cda4ea6152a5925674 *src/c/driver/framework/base_connection.h
 c79d2cf657f9a75853e22bbf848b1c4e *src/c/driver/framework/base_database.h
@@ -20,12 +20,12 @@ c79d2cf657f9a75853e22bbf848b1c4e *src/c/driver/framework/base_database.h
 3c936b092e1444b1c7f9baa8502e9985 *src/c/driver/framework/base_statement.h
 433f0d901abb691801a72625dfbf8754 *src/c/driver/framework/catalog.cc
 0382129b91468f34624d7897d17aa16d *src/c/driver/framework/catalog.h
-a671408e15435ddb8d2d68fea7c5b86e *src/c/driver/framework/objects.cc
+f51a0511de6b33791d287cc2f52d2a79 *src/c/driver/framework/objects.cc
 3db6090683a0ad293dc64210e70e67fb *src/c/driver/framework/objects.h
 bb9f3503665183155ea73d0685ddb246 *src/c/driver/framework/status.h
 82cf617a89571d2063e29cc5243c29b1 *src/c/driver/framework/type_fwd.h
 05731fcfc859fcfb44fa476e47d0b2e6 *src/c/driver/sqlite/sqlite.cc
-ced80fe9b31a94597a3b02bef2de0635 *src/c/driver/sqlite/statement_reader.c
+23453a0df5b306cced012615aebf21ae *src/c/driver/sqlite/statement_reader.c
 0121ad8be655f541cd95525c0d72d2eb *src/c/driver/sqlite/statement_reader.h
 7b0b08b1de045b5010244d2e8d577462 *src/c/vendor/fmt/include/fmt/args.h
 11a4ea0d254851c2df93eb934cd442fb *src/c/vendor/fmt/include/fmt/base.h
@@ -41,9 +41,9 @@ bd2f5f421133d0a8484414df2dab2edf *src/c/vendor/fmt/include/fmt/printf.h
 133c9f1be62ca83e8612b4858a1a52b3 *src/c/vendor/fmt/include/fmt/ranges.h
 ff6c49d2667b46de866a2ab3a95d537e *src/c/vendor/fmt/include/fmt/std.h
 2f396d768cf4c51d7414834559dc6de6 *src/c/vendor/fmt/include/fmt/xchar.h
-61ceb0e8dd4ffc53163add70c0e11117 *src/c/vendor/nanoarrow/nanoarrow.c
-020afab1c3e96db71dec6997dc284cd3 *src/c/vendor/nanoarrow/nanoarrow.h
-16ff8d1a344f1f6abc5d9ef96262ea5a *src/c/vendor/nanoarrow/nanoarrow.hpp
+a3f3efafa1ebe50cbdddace7363c732e *src/c/vendor/nanoarrow/nanoarrow.c
+05aaa4b3e3945474dcd3a5bb87538142 *src/c/vendor/nanoarrow/nanoarrow.h
+66acec2eb216991c1f6d2da84055424a *src/c/vendor/nanoarrow/nanoarrow.hpp
 1292dde4bbed6ad3b28f41d7936aaad0 *src/c/vendor/sqlite3/sqlite3.c
 172c4448fb370f208bc061b5373e1a2f *src/c/vendor/sqlite3/sqlite3.h
 5ca4f7885421b88d989afe2f202f7558 *src/common/options.h
