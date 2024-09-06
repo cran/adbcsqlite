@@ -15,30 +15,28 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#define R_NO_REMAP
-#include <R.h>
-#include <Rinternals.h>
+// Error handling utilities.
 
-#include "arrow-adbc/adbc.h"
+#pragma once
 
-extern "C" {
-AdbcStatusCode SqliteDriverInit(int version, void* raw_driver, struct AdbcError* error);
+#include <arrow-adbc/adbc.h>
+#include <libpq-fe.h>
 
-static SEXP init_func_xptr = 0;
+namespace adbcpq {
 
-SEXP adbcsqlite_c_sqlite(void) { return init_func_xptr; }
+// The printf checking attribute doesn't work properly on gcc 4.8
+// and results in spurious compiler warnings
+#if defined(__clang__) || (defined(__GNUC__) && __GNUC__ >= 5)
+#define ADBC_CHECK_PRINTF_ATTRIBUTE(x, y) __attribute__((format(printf, x, y)))
+#else
+#define ADBC_CHECK_PRINTF_ATTRIBUTE(x, y)
+#endif
 
-static const R_CallMethodDef CallEntries[] = {
-    {"adbcsqlite_c_sqlite", (DL_FUNC)&adbcsqlite_c_sqlite, 0}, {NULL, NULL, 0}};
+/// \brief Set an error based on a PGresult, inferring the proper ADBC status
+///   code from the PGresult.
+AdbcStatusCode SetError(struct AdbcError* error, PGresult* result, const char* format,
+                        ...) ADBC_CHECK_PRINTF_ATTRIBUTE(3, 4);
 
-void R_init_adbcsqlite(DllInfo* dll) {
-  R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
-  R_useDynamicSymbols(dll, FALSE);
+#undef ADBC_CHECK_PRINTF_ATTRIBUTE
 
-  init_func_xptr =
-      PROTECT(R_MakeExternalPtrFn((DL_FUNC)SqliteDriverInit, R_NilValue, R_NilValue));
-  Rf_setAttrib(init_func_xptr, R_ClassSymbol, Rf_mkString("adbc_driver_init_func"));
-  R_PreserveObject(init_func_xptr);
-  UNPROTECT(1);
-}
-}
+}  // namespace adbcpq
