@@ -15,6 +15,11 @@
 // specific language governing permissions and limitations
 // under the License.
 
+// For #warning Please include winsock2.h before windows.h on RTools/msys2
+#ifdef _WIN32
+#include <winsock2.h>
+#endif
+
 #include "connection.h"
 
 #include <array>
@@ -306,7 +311,8 @@ class PostgresGetObjectsHelper : public adbc::driver::GetObjectsHelper {
 
     Column col;
     col.column_name = next_column_[0].value();
-    UNWRAP_RESULT(int64_t ordinal_position, next_column_[1].ParseInteger());
+    int64_t ordinal_position;
+    UNWRAP_RESULT(ordinal_position, next_column_[1].ParseInteger());
     col.ordinal_position = static_cast<int32_t>(ordinal_position);
     if (!next_column_[2].is_null) {
       col.remarks = next_column_[2].value();
