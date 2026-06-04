@@ -1,4 +1,4 @@
-36e0d2f7d88665de5d08137101da9cd6 *DESCRIPTION
+e2e06d588ad2cd0a6f673054b9e99c05 *DESCRIPTION
 04d59caec1a6caff82a84d712e6c133b *NAMESPACE
 b629c9488efce05470933cf64cf98116 *R/adbcsqlite-package.R
 97150462ecdeafaf1e3c4f4ed928bd39 *README.md
@@ -90,9 +90,9 @@ ff6c49d2667b46de866a2ab3a95d537e *src/c/vendor/fmt/include/fmt/std.h
 c3a98b32d5fc6d71f4c45d96af829b68 *src/c/vendor/fmt/src/fmt.cc
 5c07d1da62794a79eaa25135c9aefd77 *src/c/vendor/fmt/src/format.cc
 9b90e961488430bd5c777d08c7d2ed09 *src/c/vendor/fmt/src/os.cc
-a5702fe59a9ea93fee105c4172a732dd *src/c/vendor/nanoarrow/nanoarrow.c
-db6352c25a40eb1cf5c5936df14a9c2f *src/c/vendor/nanoarrow/nanoarrow.h
-fc432022a975304d703a9f2365021eec *src/c/vendor/nanoarrow/nanoarrow.hpp
+0d925481ccd35e5f8ef37cbc4fa5c8e7 *src/c/vendor/nanoarrow/nanoarrow.c
+5ec67c8131b539e693dc917b31ba09fc *src/c/vendor/nanoarrow/nanoarrow.h
+d111686f32ce3740b37aeb4afb557140 *src/c/vendor/nanoarrow/nanoarrow.hpp
 2b632d6fd90ba3b317c93dbd85d45390 *src/c/vendor/portable-snippets/include/portable-snippets/safe-math.h
 1292dde4bbed6ad3b28f41d7936aaad0 *src/c/vendor/sqlite3/sqlite3.c
 172c4448fb370f208bc061b5373e1a2f *src/c/vendor/sqlite3/sqlite3.h
