@@ -1,6 +1,6 @@
 Package: adbcsqlite
 Title: 'Arrow' Database Connectivity ('ADBC') 'SQLite' Driver
-Version: 0.24.0-1
+Version: 0.24.0-2
 Authors@R: c(
       person("Dewey", "Dunnington", , "dewey@dunnington.ca", role = c("aut", "cre"),
              comment = c(ORCID = "0000-0002-9415-4582")),
@@ -24,11 +24,11 @@ BugReports: https://github.com/apache/arrow-adbc/issues
 Imports: adbcdrivermanager
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: yes
-Packaged: 2026-07-29 18:54:11 UTC; dewey
+Packaged: 2026-09-14 21:23:21 UTC; dewey
 Author: Dewey Dunnington [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-9415-4582>),
   Apache Arrow [aut, cph],
   Apache Software Foundation [cph]
 Maintainer: Dewey Dunnington <dewey@dunnington.ca>
 Repository: CRAN
-Date/Publication: 2026-07-29 19:40:02 UTC
+Date/Publication: 2026-09-15 11:00:54 UTC
